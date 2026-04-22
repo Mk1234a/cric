@@ -1,9 +1,11 @@
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [162723]
-INFO:     Started server process [168657]
+INFO:     Started server process [197518]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:0 - "GET /api/auctions HTTP/1.1" 307 Temporary Redirect
-INFO:     127.0.0.1:42296 - "GET /api/auctions/ HTTP/1.1" 200 OK
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): [errno 98] address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:44762 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44778 - "POST /api/users/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44780 - "POST /api/users/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44794 - "GET /api/auctions/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44800 - "GET /api/auctions/64f1a2b3c4d5e6f7a8b9c0d5 HTTP/1.1" 200 OK
