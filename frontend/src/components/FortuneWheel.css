@@ -1,0 +1,27 @@
+ .fortune-wheel-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wheel {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #333;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  transition: transform 3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.wheel.spinning {
+  transform: rotate(1080deg);
+}
+
+.wheel-item {
+  position: absolute;
+  font-weight: bold;
+}
